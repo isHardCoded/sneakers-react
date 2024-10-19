@@ -1,0 +1,33 @@
+.panel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+
+  div {
+    p {
+      cursor: pointer;
+    }
+  }
+}
+
+.sort-list {
+  margin-top: 10px;
+  ul {
+    display: none;
+    list-style: none;
+    box-shadow: 0px 1px 15px -3px rgba(34, 60, 80, 0.15);
+    padding: 10px;
+    border-radius: 10px;
+
+    li {
+      cursor: pointer;
+    }
+  }
+}
+
+.active {
+  display: block;
+}
